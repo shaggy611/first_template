@@ -117,14 +117,15 @@ h1 {
 
 #but_sketch {
     margin-top: 2%;
-   text-align: center; 
+   text-align: center;
 }
 
 .btn-outline-light {
 
     border-radius: 30px;
-    width: 15%;
+    width: 200px;
     height: 60px;
+    
 }
 
 .cards {
@@ -164,4 +165,47 @@ h6 {
     letter-spacing: 2px;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 5%;
 }
+
+.col-md-4 {
+    padding: 0px;
+    min-width: 100px;
+}
+
+
+.price_card {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-body {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 2px solid rgb(108, 89, 180);
+    color: grey;
+    margin: 0 auto;
+}
+
+.card-header {
+    background: rgb(108, 89, 180);
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#card_bu_1 {
+    margin-top: 10px;
+    background: rgb(108, 89, 180);
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+#purp_card {
+    width: 80%;
+}
+
+

@@ -50,7 +50,7 @@ body {
 }
 
 .main_picture {
-    background: url("../img/bg-header.jpg") no-repeat center center fixed;
+    background: url("../img/bg-header.jpg") no-repeat center center fixed; /*if you delete "fixed" - parallax will be off*/
     background-size: cover;
     height: 100vh;
     max-height: 100%;

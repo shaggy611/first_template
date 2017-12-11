@@ -42,11 +42,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-    
-}
+
 /*====================================================================*/
 
 
@@ -55,7 +51,7 @@ body {
 }
 
 .main_picture {
-    background: url("../img/bg-header.jpg") no-repeat center center; /*if you delete "fixed" - parallax will be off*/
+    background: url("../img/bg-header.jpg") no-repeat center center; 
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -145,7 +141,7 @@ h1 {
     height: 100px;
     border-radius: 50px;
     position: relative;
-    margin-left: 39%
+    margin-left: 40%
 }
 h4 {
     margin-top: 2%;
@@ -270,8 +266,95 @@ h6 {
 
 #after_carousele {
     margin-top: 7%;
+	
+	
 }
 
 .main-picture {
     /*padding-right: 15px;*/
+}
+
+.after_carousele {
+	width: 80%;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	padding-left: 15%;
+	padding-right: 5%;
+	line-height: 2.2
+}
+
+#makeYourmark {
+	
+}
+
+.after_carousele_first {
+	border-right: 1px solid #D1D3DB;
+}
+
+#padd_own {
+	margin-top: 2%;
+}
+
+.card_prof {
+	margin-left: 6%;
+}
+
+.picture_block {
+	padding: 0;
+	
+	
+}
+
+.picture_block_main {
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+.img_own {
+	width: 100%;
+}
+
+.picture_block_dark {
+	background-color: #312f38;
+}
+
+.blue_but {
+	padding-top: 5px;
+	text-align: center;
+	width: 170px;
+	height: 30px;
+	background: #2b8be3;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: azure;
+	border-radius: 15px;
+}
+
+.artstyle {
+	margin-top: 4rem;
+}
+
+.art_paragraph {
+	font-weight: 600;
+	font-size: 1.35rem;
+	margin-top: 1rem;
+	color: azure
+}
+
+.art_span {
+	padding-right: 1rem;
+	color: rgba(255,255,255,.6);
+	
+}
+
+.spanPosition {
+	margin-top: 2.4rem;
+}
+
+.divWithForm {
+	background: #f4f5f7;
+}
+
+.FormOwnStyle {
+	
 }

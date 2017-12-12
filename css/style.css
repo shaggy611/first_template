@@ -141,7 +141,10 @@ h1 {
     height: 100px;
     border-radius: 50px;
     position: relative;
-    margin-left: 40%
+    margin-left: 40%; 
+}
+.card_circle:nth-child(2)  {
+    background: url("/img/pen.png") no-repeat center center; 
 }
 h4 {
     margin-top: 2%;
@@ -357,4 +360,16 @@ h6 {
 
 .FormOwnStyle {
 	
+}
+
+.card_circle_1 {
+    background: url("/img/heart.png") no-repeat center center;
+}
+
+.card_circle_2 {
+    background: url("/img/pen.png") no-repeat center center;
+}
+
+.card_circle_3 {
+    background: url("/img/power.png") no-repeat center center;
 }

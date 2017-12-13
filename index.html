@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -40,11 +41,11 @@
 	</div>
 </div>
 <!-- There must be main container with content ---------------------------------------------------------->
-<div class="container-fluid">
+<div class="container-fluid bg_under_tl">
 	<div class="row main_content">
-		<div class="col col-md">
-			<h2> Build your beautiful UI, the way you want it, with Land.io </h2>
-			<p id="Craft_memorable"> Craft memorable, emotive experiences with our range of beautiful UI elements. </p> <img src="./img/mock.png" alt="telephone" class="img-fluid mx-auto d-block telephone"> </div>
+		<div class="col col-md-12">
+			<h2 class="wow fadeInUp"> Build your beautiful UI, the way you want it, with Land.io </h2>
+			<p id="Craft_memorable" class="wow fadeInUp"> Craft memorable, emotive experiences with our range of beautiful UI elements. </p> <img src="./img/mock.png" alt="telephone" class="img-fluid mx-auto d-block telephone wow fadeInUp"> </div>
 	</div>
 </div>
 <div class="container-fluid">
@@ -137,18 +138,18 @@
 	</div>
 	<div class="row" id="padd_own">
 		<div class="col-md-6 after_carousele_first">
-			<p class="after_carousele"> A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut. </p>
+			<p class="after_carousele wow fadeInUp"> A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut. </p>
 		</div>
 		<div class="col-md-6">
-			<p class="after_carousele"> A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut. </p>
+			<p class="after_carousele wow fadeInUp"> A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut. </p>
 		</div>
 	</div>
 </div>
 
 <div class="container-fluid picture_block_main">
 	<div class="row d-flex justify-content-center">
-		<div class="col-md-3 picture_block"> <img src="img/mountains.jpg" alt="mountains" class="img-fluid img_own"> </div>
-		<div class="col-md-3 picture_block_dark">
+		<div class="col-md-6 picture_block"> <img src="img/mountains.jpg" alt="mountains" class="img_own"> </div>
+		<div class="col-md-6 picture_block_dark">
 		<article class="artstyle">
 			<div class="blue_but"> Featured article</div>
 			<p class="art_paragraph"> Design studio with product designer</p>
@@ -157,8 +158,8 @@
 		</article>
 		  </div>
 	</div>
-	<div class="row d-flex justify-content-center">
-		<div class="col-md-3 picture_block_dark"> 
+	<div class="row d-flex justify-content-center second_row">
+		<div class="col-md-6 picture_block_dark picture_block_dark_2"> 
 		<article class="artstyle">
 			<div class="blue_but"> Featured article</div>
 			<p class="art_paragraph"> Design studio with product designer</p>
@@ -166,33 +167,35 @@
 			<div class="spanPosition"><span class="art_span">DESIGN STUDIO</span> <span class="art_span">1 HOUR AGO</span></div>
 		</article>
 		</div>
-		<div class="col-md-3 picture_block"> <img src="img/notebook.jpg" alt="notebook"  class="img-fluid"> </div>
+		<div class="col-md-6 picture_block"> <img src="img/notebook.jpg" alt="notebook"  class="img_own"> </div>
 	</div>
 </div>
 
 <div class="container-fluid divWithForm">
-	<div class="row">
-		<form action="" class="form-inline FormOwnStyle">
-			<div class="form-group">
-				<label for="staticEmail2" class="sr-only">Email</label>
-				</div>
-			<div class="form-group mx-sm-3">
-			<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
-			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
-				<label for="inputPassword2" class="sr-only">Password</label>
-				<input type="password" class="form-control" id="inputPassword2" placeholder="Enter a password"> </div>
-			<button type="submit" class="btn btn-primary">Confirm identity</button>
-			<label class="form-check-label">
+    <div class="row">
+        <form action="" class="form-inline FormOwnStyle">
+            <div class="form-group">
+                <label for="staticEmail2" class="sr-only">Email</label>
+            </div>
+            <div class="form-group mx-sm-3 ">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Enter a password">
+            </div>
+            <button type="submit" class="btn btn-primary signUpOwn" >Sign up</button>
+            <!--<label class="form-check-label checkOwn">
     <input class="form-check-input" type="checkbox" value="">
     I agree to Land.io’s <a href="#"> terms of service </a>
-  </label>
-		</form>
-	</div>
+  </label>-->
+        </form>
+    </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/wow.js"></script>
+<script>new WOW().init();</script>
 </body>
 
 </html>

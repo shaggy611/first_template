@@ -371,15 +371,15 @@ h6 {
 }
 
 .card_circle_1 {
-    background: url("/img/heart.png") no-repeat center center;
+    background: url("../img/heart.png") no-repeat center center;
 }
 
 .card_circle_2 {
-    background: url("/img/pen.png") no-repeat center center;
+    background: url("../img/pen.png") no-repeat center center;
 }
 
 .card_circle_3 {
-    background: url("/img/power.png") no-repeat center center;
+    background: url("../img/power.png") no-repeat center center;
 }
 .mx-sm-3 > input {
     /*margin-right: 6%;*/

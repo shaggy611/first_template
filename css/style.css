@@ -395,7 +395,20 @@ h6 {
     padding: 0px;
 }
 
-
+.footer > .row > .col-md-6 > p {
+	color: azure;
+	font-weight: 600;
+	letter-spacing: 0.07rem;
+	margin-bottom: 0.4rem;
+    margin-left: 20%;
+}
+.own_naw > li > a {
+	color: azure;
+}
+.own_naw > li > a:hover {
+	color: rgb(108, 89, 180);
+	transition: 1s;
+}
 
 /*ALL MEDIA QUERIES*/
 
@@ -455,4 +468,27 @@ h6 {
     background-color: #312f38;
     width: 100%;
     height: 15rem;
+}
+
+.footer_own {
+	padding-top: 5rem; 
+}
+
+.own_naw {
+    justify-content: flex-end;
+	margin-right: 20%;
+	color: azure;
+	font-weight: 500;
+	letter-spacing: 0.07rem;
+}
+
+.first_nav_own {
+	margin-right: 6rem;
+}
+
+.drop_own_style {
+	border-radius: 3rem;
+	width: 3rem;
+	height: 3rem;
+	margin-left: 10px;
 }

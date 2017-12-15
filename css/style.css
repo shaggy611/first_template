@@ -366,8 +366,8 @@ h6 {
     color: aliceblue;
 }
 
-.FormOwnStyle {
-
+.FormOwnStyle > div> input {
+	
 }
 
 .card_circle_1 {
@@ -492,3 +492,5 @@ h6 {
 	height: 3rem;
 	margin-left: 10px;
 }
+
+

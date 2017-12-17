@@ -300,6 +300,7 @@ h6 {
 .card_prof {
 	margin-left: 0 auto;
     margin-right: 0 auto;
+
 }
 
 .picture_block {
@@ -397,7 +398,7 @@ h6 {
     padding: 0px;
 }
 
-.footer > .row > .col-md-6 > p {
+.footer > .row > .col-md > p {
 	color: azure;
 	font-weight: 600;
 	letter-spacing: 0.07rem;
@@ -411,49 +412,6 @@ h6 {
 	color: rgb(108, 89, 180);
 	transition: 1s;
 }
-
-/*ALL MEDIA QUERIES*/
-
-@media (max-width: 768px) {
-    .picture_block_dark {
-	background-color: #312f38;
-    min-height: 50%;
-    padding-bottom: 2.5rem;
-
-}
-    .after_carousele_first{
-       border-right: 0px solid #D1D3DB;
-       
-    }
-    .after_carousele {
-	width: 85%;
-	border-bottom: 1px solid #D1D3DB;
-        margin-top: 2%;
-}
-    .card-body{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-}
-@media (max-width: 996px) {
-    .artstyle{
-        margin-top: 2rem;
-    }
-}
-@media (max-width: 576px){
-    .divWithForm {
-    background: #f4f5f7;
-    height: 20rem;
-    padding-top: 5rem;
-    padding-bottom: 25rem;
-    }
-    .sign_up{
-        font-size: 2px;
-    }
- 
-        
-}
-
 
 
 .bg_under_tl {
@@ -476,17 +434,17 @@ h6 {
 }
 
 .purp_card_1 {
-   
+
 }
 
 .footer {
     background-color: #312f38;
-    width: 100%;
     height: 15rem;
 }
 
 .footer_own {
 	padding-top: 5rem; 
+    text-align: center;
 }
 
 .own_naw {
@@ -512,9 +470,6 @@ h6 {
     border-radius: 0.5rem;
     width: 15rem;
 }
-.divWithForm > form-row {
-    
-}
 
 .formOwn_bt {
     border-radius: 1.5rem;
@@ -531,6 +486,7 @@ h6 {
 .sign_up {
     font-size: 1.75rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .wer {
@@ -547,4 +503,76 @@ h6 {
 
 #purp_card_1 {
     margin-left: 20%;
+}
+
+
+/*ALL MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+    .picture_block_dark {
+	background-color: #312f38;
+    min-height: 50%;
+    padding-bottom: 2.5rem;
+
+}
+    .divWithForm {
+    background: #f4f5f7;
+    height: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+    }
+    .after_carousele_first{
+       border-right: 0px solid #D1D3DB;
+       
+    }
+    .after_carousele {
+	width: 85%;
+	border-bottom: 1px solid #D1D3DB;
+        margin-top: 2%;
+}
+    .card-body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #purp_card_2 {
+    width: 100%;
+}
+
+#purp_card_1 {
+    width: 80%;
+}
+    #purp_card {
+    margin-left: 0 auto;
+}
+}
+@media (max-width: 996px) {
+    .artstyle{
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 576px){
+    .divWithForm {
+    background: #f4f5f7;
+    height: 20rem;
+    padding-top: 5rem;
+    /*padding-bottom: 20rem;*/
+        padding-bottom: 30%;
+    }
+    .sign_up{
+        
+        
+    }
+ 
+        
+}
+@media (min-width: 200px) and (max-width: 575px){
+    .divWithForm {
+    background: #f4f5f7;
+    height: 25rem;
+    padding-top: 5rem;
+    padding-bottom: 25rem;
+    }
+   
+        
+}
 }

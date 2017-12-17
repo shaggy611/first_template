@@ -132,17 +132,17 @@ h1 {
 .cards {
     width: 100%;
     max-width: 100%;
-    margin-top: 5%;
+    margin-top: 8%;
     text-align: center;
+    margin: 0 auto;
 }
 
 .card_circle {
     border: 5px solid #D1D3DB;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: relative;
-    margin-left: 40%; 
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    margin: 0 auto;
 }
 
 h4 {
@@ -208,7 +208,7 @@ h6 {
 }
 
 #purp_card {
-    width: 80%;
+    
 }
 
 
@@ -298,8 +298,8 @@ h6 {
 }
 
 .card_prof {
-	margin-left: 10%;
-    margin-right: 10%;
+	margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 .picture_block {
@@ -359,7 +359,9 @@ h6 {
 .divWithForm {
 	background: #f4f5f7;
     height: 20rem;
-    padding-top: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    
 }
 .btn:hover{
     background: rgba(255, 255, 255, 0.2);
@@ -436,7 +438,20 @@ h6 {
 @media (max-width: 996px) {
     .artstyle{
         margin-top: 2rem;
-    } 
+    }
+}
+@media (max-width: 576px){
+    .divWithForm {
+    background: #f4f5f7;
+    height: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 25rem;
+    }
+    .sign_up{
+        font-size: 2px;
+    }
+ 
+        
 }
 
 
@@ -492,5 +507,44 @@ h6 {
 	height: 3rem;
 	margin-left: 10px;
 }
+.formOwn {
+    height: 140%; 
+    border-radius: 0.5rem;
+    width: 15rem;
+}
+.divWithForm > form-row {
+    
+}
 
+.formOwn_bt {
+    border-radius: 1.5rem;
+}
 
+.check_1 {
+   margin-top: 2rem;
+}
+
+.last_row {
+    
+}
+
+.sign_up {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.wer {
+   border: 1px solid black;
+}
+
+.main_con_card {
+    margin-top: 5%;
+}
+
+#purp_card_2 {
+    margin-right: 20%;
+}
+
+#purp_card_1 {
+    margin-left: 20%;
+}

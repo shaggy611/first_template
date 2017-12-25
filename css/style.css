@@ -106,6 +106,7 @@ h1 {
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
+    letter-spacing: 0.2rem;
 }
 
 #Craft_your_journey {
@@ -126,7 +127,9 @@ h1 {
     border-radius: 30px;
     width: 200px;
     height: 60px;
-    
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem
 }
 
 .cards {
@@ -397,7 +400,7 @@ h6 {
     padding: 0px;
 }
 
-.footer > .row > .col-md > p {
+.company_name {
 	color: azure;
 	font-weight: 600;
 	letter-spacing: 0.07rem;
@@ -454,7 +457,7 @@ h6 {
 }
 
 .first_nav_own {
-	margin-right: 6rem;
+	margin-right: 0rem;
 }
 
 .drop_own_style {
@@ -504,9 +507,17 @@ h6 {
 }
 
 
+
+
+
 /*ALL MEDIA QUERIES*/
 
 @media (max-width: 768px) {
+    
+     .own_naw {
+        margin-right: 3%;
+    }
+   
     .picture_block_dark {
 	background-color: #312f38;
     min-height: 50%;
@@ -521,9 +532,9 @@ h6 {
     #padd_own {
         margin-left: 2.8rem;
     }
-    .footer > .row > .col-md > p {
+    .company_name {
     text-align: center;
-        margin-left: 0 auto;
+    margin-left: -2%;
 }
     .own_naw {
         text-align: center;
@@ -568,11 +579,14 @@ h6 {
         
     }
 }
+
+
+}
 @media (max-width: 996px) {
     .artstyle{
         margin-top: 2rem;
     }
-    .footer > .row > .col-md > p {
+    .company_name {
     margin-left: 10%;
 }
     .own_naw {
@@ -590,9 +604,7 @@ h6 {
     .sign_up{
         
         
-    }
- 
-        
+    }     
 }
 @media (min-width: 200px) and (max-width: 575px){
     .divWithForm {
@@ -611,8 +623,6 @@ h6 {
 } 
        
 }
-
-
 .own_carousele {
     padding-top: 3rem;
     width: 100%;

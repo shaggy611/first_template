@@ -51,21 +51,15 @@ body {
 }
 
 .main_picture {
-    background: url("../img/bg-header.jpg") no-repeat center center; 
+    background: url("../img/bg-header.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 
-
-
 .justify-content-end {
     margin-right: 1%;
 }
-
-
-
-
 
 .bg-light {
     background-color: transparent;
@@ -79,7 +73,7 @@ a.nav-link {
     width: 100%;
     max-width: 100%;
     padding-top: 4%;
-    
+
 }
 
 .telephone {
@@ -119,7 +113,7 @@ h1 {
 
 #but_sketch {
     margin-top: 2%;
-   text-align: center;
+    text-align: center;
 }
 
 .btn-outline-light {
@@ -153,6 +147,7 @@ h4 {
     font-weight: bold;
     font-size: 2rem;
 }
+
 h6 {
     margin-top: 10px;
     color: gray;
@@ -252,14 +247,12 @@ h6 {
     width: 100%;
 }
 
-.own_carousel {
-    
-}
+.own_carousel {}
 
 .carousele_picture {
-   background: url("../img/bg-testimonials.jpg") no-repeat center center;
+    background: url("../img/bg-testimonials.jpg") no-repeat center center;
     background-size: cover;
-    width: 100%; 
+    width: 100%;
     height: 35rem;
 }
 
@@ -270,8 +263,8 @@ h6 {
 
 #after_carousele {
     margin-top: 7%;
-	padding-left: 6%;
-	
+    padding-left: 6%;
+
 }
 
 .main-picture {
@@ -279,101 +272,98 @@ h6 {
 }
 
 .after_carousele {
-	width: 80%;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
-	padding-left: 15%;
-	padding-right: 5%;
-	line-height: 2.2
+    width: 80%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-left: 15%;
+    padding-right: 5%;
+    line-height: 2.2
 }
 
-#makeYourmark {
-	
-}
+#makeYourmark {}
 
 .after_carousele_first {
-	border-right: 1px solid #D1D3DB;
+    border-right: 1px solid #D1D3DB;
 }
 
 #padd_own {
-	margin-top: 2%;
+    margin-top: 2%;
 }
 
 .card_prof {
-	margin-left: 0 auto;
+    margin-left: 0 auto;
     margin-right: 0 auto;
-    
+
 }
 
 .picture_block {
-	padding: 0;
-	
+    padding: 0;
+
 }
 
 .picture_block_main {
-	margin-top: 10%;
-	margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
     width: 80%;
 }
 
 .img_own {
-	width: 100%;
+    width: 100%;
     height: 100%;
 }
 
 .picture_block_dark {
-	background-color: #312f38;
+    background-color: #312f38;
     min-height: 50%;
 }
 
 .blue_but {
-	padding-top: 5px;
-	text-align: center;
-	width: 170px;
-	height: 30px;
-	background: #2b8be3;
-	font-size: 1.2rem;
-	font-weight: 600;
-	color: azure;
-	border-radius: 15px;
+    padding-top: 5px;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    background: #2b8be3;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: azure;
+    border-radius: 15px;
 }
 
 .artstyle {
-	margin-top: 20%;
+    margin-top: 20%;
 }
 
 .art_paragraph {
-	font-weight: 600;
-	font-size: 1.35rem;
-	margin-top: 1rem;
-	color: azure
+    font-weight: 600;
+    font-size: 1.35rem;
+    margin-top: 1rem;
+    color: azure
 }
 
 .art_span {
-	padding-right: 1rem;
-	color: rgba(255,255,255,.6);
-	
+    padding-right: 1rem;
+    color: rgba(255, 255, 255, .6);
+
 }
 
 .spanPosition {
-	margin-top: 2.4rem;
+    margin-top: 2.4rem;
 }
 
 .divWithForm {
-	background: #f4f5f7;
+    background: #f4f5f7;
     height: 20rem;
     padding-top: 5rem;
     padding-bottom: 10rem;
-    
+
 }
-.btn:hover{
+
+.btn:hover {
     background: rgba(255, 255, 255, 0.2);
     color: aliceblue;
 }
 
-.FormOwnStyle > div> input {
-	
-}
+.FormOwnStyle > div > input {}
 
 .card_circle_1 {
     background: url("../img/heart.png") no-repeat center center;
@@ -386,14 +376,16 @@ h6 {
 .card_circle_3 {
     background: url("../img/power.png") no-repeat center center;
 }
+
 .mx-sm-3 > input {
     /*margin-right: 6%;*/
     height: 3rem;
 
 }
-.mx-sm-3 > input:focus{
-   border-color: rgb(108, 89, 180); 
-   box-shadow: 0 0 0 0.2rem rgba(108, 89, 180, 0.5);
+
+.mx-sm-3 > input:focus {
+    border-color: rgb(108, 89, 180);
+    box-shadow: 0 0 0 0.2rem rgba(108, 89, 180, 0.5);
 }
 
 .card_prof > .col-md {
@@ -401,23 +393,25 @@ h6 {
 }
 
 .company_name {
-	color: azure;
-	font-weight: 600;
-	letter-spacing: 0.07rem;
-	margin-bottom: 0.4rem;
+    color: azure;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+    margin-bottom: 0.4rem;
     margin-left: 20%;
 }
+
 .own_naw > li > a {
-	color: azure;
+    color: azure;
 }
+
 .own_naw > li > a:hover {
-	color: rgb(108, 89, 180);
-	transition: 1s;
+    color: rgb(108, 89, 180);
+    transition: 1s;
 }
 
 
 .bg_under_tl {
-   background: #f4f5f7; 
+    background: #f4f5f7;
 }
 
 .signUpOwn {
@@ -427,17 +421,13 @@ h6 {
     background: rgb(108, 89, 180);
 }
 
-.checkOwn {
-
-}
+.checkOwn {}
 
 .card_1 {
     z-index: -1;
 }
 
-.purp_card_1 {
-
-}
+.purp_card_1 {}
 
 .footer {
     background-color: #312f38;
@@ -445,29 +435,30 @@ h6 {
 }
 
 .footer_own {
-	padding-top: 5rem; 
+    padding-top: 5rem;
 }
 
 .own_naw {
     justify-content: flex-end;
-	margin-right: 20%;
-	color: azure;
-	font-weight: 500;
-	letter-spacing: 0.07rem;
+    margin-right: 20%;
+    color: azure;
+    font-weight: 500;
+    letter-spacing: 0.07rem;
 }
 
 .first_nav_own {
-	margin-right: 0rem;
+    margin-right: 0rem;
 }
 
 .drop_own_style {
-	border-radius: 3rem;
-	width: 3rem;
-	height: 3rem;
-	margin-left: 10px;
+    border-radius: 3rem;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 10px;
 }
+
 .formOwn {
-    height: 140%; 
+    height: 140%;
     border-radius: 0.5rem;
     width: 15rem;
 }
@@ -477,12 +468,10 @@ h6 {
 }
 
 .check_1 {
-   margin-top: 2rem;
+    margin-top: 2rem;
 }
 
-.last_row {
-    
-}
+.last_row {}
 
 .sign_up {
     font-size: 1.75rem;
@@ -490,9 +479,7 @@ h6 {
     margin-bottom: 2rem;
 }
 
-.wer {
-   
-}
+.wer {}
 
 .main_con_card {
     margin-top: 5%;
@@ -513,116 +500,152 @@ h6 {
 /*ALL MEDIA QUERIES*/
 
 @media (max-width: 768px) {
-    
-     .own_naw {
+
+    .own_naw {
         margin-right: 3%;
     }
-   
-    .picture_block_dark {
-	background-color: #312f38;
-    min-height: 50%;
-    padding-bottom: 2.5rem;
 
-}
+    .picture_block_dark {
+        background-color: #312f38;
+        min-height: 50%;
+        padding-bottom: 2.5rem;
+
+    }
     .after_carousele {
-	width: 90%;
-	padding-left: 1%;
-	padding-right: 1%;
-}
+        width: 90%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
     #padd_own {
         margin-left: 2.8rem;
     }
     .company_name {
-    text-align: center;
-    margin-left: -2%;
-}
+        text-align: center;
+        margin-left: -2%;
+    }
     .own_naw {
         text-align: center;
     }
     .last_ul {
         margin-top: 3%;
     }
-    
-    
+
+
     .divWithForm {
-    background: #f4f5f7;
-    height: 20rem;
-    padding-top: 5rem;
-    padding-bottom: 20rem;
+        background: #f4f5f7;
+        height: 20rem;
+        padding-top: 5rem;
+        padding-bottom: 20rem;
     }
-    .after_carousele_first{
-       border-right: 0px solid #D1D3DB;
-       
+    .after_carousele_first {
+        border-right: 0px solid #D1D3DB;
+
     }
     .after_carousele {
-	width: 85%;
-	border-bottom: 1px solid #D1D3DB;
+        width: 85%;
+        border-bottom: 1px solid #D1D3DB;
         margin-top: 2%;
-}
-    .card-body{
+    }
+    .card-body {
         margin-left: 0px;
         margin-right: 0px;
     }
     #purp_card_2 {
-    width: 100%;
-}
-
-#purp_card_1 {
-    width: 100%;
-	margin-left: 0%;
-}
-    #purp_card {
-    margin-left: 0 auto;
-}
-    .own_naw {
-    display: block;
-        
+        width: 100%;
     }
+
+    #purp_card_1 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    #purp_card {
+        margin-left: 0 auto;
+    }
+    .own_naw {
+        display: block;
+
+    }
+
+    h1 {
+        margin-top: 20%;
+        color: antiquewhite;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        margin-bottom: 10%;
+    }
+
+    #Craft_your_journey {
+        margin-top: 1.5%;
+        color: antiquewhite;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 5%;
+    }
+
+
+    #but_sketch {
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .btn-outline-light {
+
+        border-radius: 30px;
+        width: 200px;
+        height: 60px;
+        font-weight: 600;
+        font-size: 0.7rem;
+        letter-spacing: 0.2rem
+}
 }
 
 
 }
+
 @media (max-width: 996px) {
-    .artstyle{
+    .artstyle {
         margin-top: 2rem;
     }
     .company_name {
-    margin-left: 10%;
-}
+        margin-left: 10%;
+    }
     .own_naw {
         margin-right: 10%;
     }
 }
-@media (max-width: 576px){
+
+@media (max-width: 576px) {
     .divWithForm {
-    background: #f4f5f7;
-    height: 20rem;
-    padding-top: 5rem;
-    /*padding-bottom: 20rem;*/
+        background: #f4f5f7;
+        height: 20rem;
+        padding-top: 5rem;
+        /*padding-bottom: 20rem;*/
         padding-bottom: 30%;
     }
-    .sign_up{
-        
-        
-    }     
+    .sign_up {}
 }
-@media (min-width: 200px) and (max-width: 575px){
+
+@media (min-width: 200px) and (max-width: 575px) {
     .divWithForm {
-    background: #f4f5f7;
-    height: 25rem;
-    padding-top: 5rem;
-    padding-bottom: 25rem;
+        background: #f4f5f7;
+        height: 25rem;
+        padding-top: 5rem;
+        padding-bottom: 25rem;
     }
-   
-        
+
+
 }
-@media (min-width: 200px) and (max-width: 575px){
-.footer {
-    background-color: #312f38;
-    height: 15rem;
-} 
-       
+
+@media (min-width: 200px) and (max-width: 575px) {
+    .footer {
+        background-color: #312f38;
+        height: 15rem;
+    }
+
 }
+
 .own_carousele {
     padding-top: 3rem;
     width: 100%;
@@ -636,6 +659,7 @@ h6 {
     font-size: 1.5rem;
     font-weight: 600;
 }
+
 .carousel-inner > div > p {
     color: azure;
     margin-top: 3%;
@@ -643,8 +667,9 @@ h6 {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
 .car_slide_pic {
-     background: url("../img/face1.jpg") no-repeat center center;
+    background: url("../img/face1.jpg") no-repeat center center;
     background-size: cover;
     width: 7rem;
     height: 7rem;

@@ -727,3 +727,11 @@ h6 {
     border-radius: 3rem;
     border: 2px solid #D1D3DB;
 }
+
+video {
+	width: 100%;
+	height: 50%;
+}
+.own_video {
+	padding: 0px;
+}

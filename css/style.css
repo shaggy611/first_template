@@ -176,7 +176,6 @@ h6 {
 
 
 .price_card {
-    margin-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -720,18 +719,36 @@ h6 {
 }
 
 .car_slide_pic_1 {
-    background: url("../img/face1.jpg") no-repeat center center;
-    background-size: cover;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 3rem;
-    border: 2px solid #D1D3DB;
+	background: url("../img/face1.jpg") no-repeat center center;
+}
+.car_slide_pic_2 {
+	background: url("../img/face2.jpg") no-repeat center center;
+}
+.car_slide_pic_3 {
+	background: url("../img/face3.jpg") no-repeat center center;
+}
+.car_slide_pic_4 {
+	background: url("../img/face4.jpg") no-repeat center center;
 }
 
 video {
-	width: 100%;
-	height: 50%;
+	width: 100%    !important;
+    height: auto   !important; 
 }
 .own_video {
 	padding: 0px;
+}
+.mls {
+  margin-left: .25em;
+  color: white;
+}
+
+.fs1 {
+	font-size: 3.5rem;
+	color: azure;
+}
+
+.fs-dimond {
+	float: left;
+	margin-top: -5px;
 }

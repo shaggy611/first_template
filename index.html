@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
@@ -33,7 +33,7 @@
 						
 					</ul>
 					<form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" hidden="false">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" hidden="true">
 						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 					</form>
 					<div class="dropdown">
@@ -106,8 +106,8 @@
 	<div class="row card_prof">
 		<div class="col-md">
 			<div class="card purp_card_1 wow fadeInRight" id="purp_card_1">
-				<div class="card-header"> PROFESSIONAL </div>
-				<div class="card-body">
+				<div class="card-header" id="card-header_1"> PROFESSIONAL </div>
+				<div class="card-body" id="card_body_1">
 					<p class="card-text own_card_style">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras.</p>
 					<h4> <sup class="pricing_symbol">$</sup> <span class="card_price"> 19 </span> <small class="card_price_month">/month</small> </h4>
 					<p class="card-text own_card_style">Sed risus feugiat</p>
@@ -134,8 +134,8 @@
 		</div>
 		<div class="col-md">
 			<div class="card card_1 wow fadeInLeft" id="purp_card_2">
-				<div class="card-header"> PROFESSIONAL </div>
-				<div class="card-body">
+				<div class="card-header" id="card-header_2"> PROFESSIONAL </div>
+				<div class="card-body" id="card_body_2">
 					<p class="card-text own_card_style">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras.</p>
 					<h4> <sup class="pricing_symbol">$</sup> <span class="card_price"> 25 </span> <small class="card_price_month">/month</small> </h4>
 					<p class="card-text own_card_style">Sed risus feugiat</p>
@@ -153,10 +153,10 @@
 		<div id="carouselExampleIndicators" class="carousel slide own_carousele" data-ride="carousel">
 			<!--Small buttons which switch slides-->
 			<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><div class="_car_slide_pic car_slide_pic_1"> </div></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"><div class="_car_slide_pic car_slide_pic_2"> </div></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"><div class="_car_slide_pic car_slide_pic_3"> </div></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="3"><div class="_car_slide_pic car_slide_pic_4"> </div></li>
 			</ol>
 			<!-------------------------------------->
 			<div class="carousel-inner">
@@ -208,7 +208,7 @@
 <div class="container-fluid picture_block_main">
 	<div class="row d-flex justify-content-center">
 		<div class="col-md-6 picture_block"> <img src="img/mountains.jpg" alt="mountains" class="img_own"> </div>
-		<div class="col-md-6 picture_block_dark">
+		<div class="col-md-6 picture_block_dark" id="_picture_block_dark">
 			<article class="artstyle">
 				<div class="blue_but"> Featured article</div>
 				<p class="art_paragraph"> Design studio with product designer</p>
@@ -234,11 +234,11 @@
 	<form>
 		<div class="form-row justify-content-center">
 			<div class="col-form-label-lg">
-				<input type="text" class="form-control formOwn" placeholder="Your name"> </div>
+				<input type="text" class="form-control formOwn formOwn_1" placeholder="Your name"> </div>
 			<div class="col-form-label-lg">
-				<input type="email" class="form-control formOwn" placeholder="Email address"> </div>
+				<input type="email" class="form-control formOwn formOwn_2" placeholder="Email address"> </div>
 			<div class="col-form-label-lg">
-				<input type="password" class="form-control formOwn" placeholder="Enter a password"> </div>
+				<input type="password" class="form-control formOwn formOwn_3" placeholder="Enter a password"> </div>
 			<div class="col-form-label-lg">
 				<button type="submit" class="btn btn-primary formOwn formOwn_bt">SIGN UP FOR FREE!</button>
 			</div>

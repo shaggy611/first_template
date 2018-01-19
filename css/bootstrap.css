@@ -5591,7 +5591,7 @@ button.close {
   list-style: none;
 }
 
-.carousel-indicators li {
+.carousel-indicators li{
   position: relative;
   -ms-flex: 0 1 auto;
       flex: 0 1 auto;
@@ -5600,7 +5600,7 @@ button.close {
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
-  background-color: rgba(255, 255, 255, 0.5);
+  /*background-color: rgba(255, 255, 255, 0.5);*/
 }
 
 .carousel-indicators li::before {
@@ -5624,7 +5624,7 @@ button.close {
 }
 
 .carousel-indicators .active {
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .carousel-caption {

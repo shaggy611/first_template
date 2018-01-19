@@ -497,7 +497,7 @@ h6 {
 }
 
 .formOwn_bt {
-	border-radius: 1.5rem;
+	border-radius: 1.7rem;
 	background: rgb(108, 89, 180)
 }
 
@@ -662,7 +662,6 @@ h6 {
 		margin-right: 10%;
 	}
 	
-	.car_slide_pic {}
 }
 @media (max-width: 576px) {
 	.divWithForm {
@@ -729,6 +728,8 @@ h6 {
 	margin-top: 3%;
 	font-size: 1.5rem;
 	font-weight: 600;
+    width: 80%;
+    margin-left: 10%;
 }
 .carousel-inner > div > p {
 	color: azure;
@@ -744,7 +745,7 @@ h6 {
 	height: 7rem;
 	align-content: center;
 	margin-top: 4rem;
-	margin-left: 47%;
+	margin-left: 46%;
 	border-radius: 7rem;
 	border: 5px solid #D1D3DB;
 }
@@ -762,8 +763,8 @@ h6 {
 }
 ._car_slide_pic {
 	background-size: cover;
-	width: 4rem;
-	height: 4rem;
+	width: 3rem;
+	height: 3rem;
 	align-content: center;
 	border-radius: 4rem;
 	border: 3px solid #D1D3DB;
@@ -815,4 +816,15 @@ video {
 }
 .li_img {
 	list-style-image: url(/img/face1.jpg);
+}
+
+._own_li > li{
+    margin-right: 2.5rem;
+}
+
+.hr_carousele {
+    margin-top: 2%;
+    width: 7rem;
+    border: 0.5px solid azure;
+    
 }

@@ -323,10 +323,12 @@ h6 {
 
 .after_carousele_first {
 	border-right: 1px solid #D1D3DB;
+	
 }
 
 #padd_own {
 	margin-top: 2%;
+	margin-left: -7%;
 }
 
 .card_prof {
@@ -341,7 +343,7 @@ h6 {
 .picture_block_main {
 	margin-top: 10%;
 	margin-bottom: 5%;
-	width: 80%;
+	width: 60%;
 }
 
 .img_own {
@@ -543,6 +545,12 @@ h6 {
 
 
 /*ALL MEDIA QUERIES*/
+@media (max-width: 1200px) { 
+	.picture_block_main{
+		width: 80%;
+	}
+
+}
 
 @media (max-width: 768px) {
 	.own_naw {
@@ -851,3 +859,5 @@ video {
 	border: 3px solid #D1D3DB;
     float:left;
 }
+
+
